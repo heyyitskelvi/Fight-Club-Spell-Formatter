@@ -15,7 +15,7 @@
     </spell>
     <spell>
         <name>Acid Rain</name>
-        <classes>Sorcerer, Wizard, Warlocks</classes>
+        <classes>Sorcerer, Wizard, Warlock</classes>
         <level>5</level>
         <school>C</school>
         <ritual>NO</ritual>
@@ -32,7 +32,7 @@
     </spell>
     <spell>
     <name>Adjust Positioning</name>
-    <classes></classes>
+    <classes>Bard, Cleric, Warlock, Wizard</classes>
     <level>1</level>
     <school>T</school>
     <ritual>NO</ritual>
@@ -53,7 +53,7 @@ additional willing creature for each slot level above 1st.</text>
 </spell>
     <spell>
         <name>Afflict Line</name>
-        <classes>Cleric, Warlock,</classes>
+        <classes>Cleric, Warlock</classes>
         <level>9</level>
         <school>N</school>
         <ritual>YES</ritual>
@@ -66,7 +66,208 @@ additional willing creature for each slot level above 1st.</text>
         <roll></roll>
     </spell>
 
-        
+    <spell>
+	<name>Amplify Ley Field</name>
+	<classes>Druid, Sorcerer, Warlock</classes>
+	<level>5</level>
+	<school>EV</school>
+	<ritual>NO</ritual>
+	<time>1 action</time>
+	<range>Self (10 ft radius sphere)</range>
+	<components>V, S</components>
+	<duration>Concentration, up to 10 minutes</duration>
+	<text>You create a faintly shimmering field of charged energy
+around yourself. Within that area, the intensity of ley lines
+you're able to draw on increases from weak to strong, or
+from strong to titanic.
+If no ley lines are near enough for you to draw on, you
+can treat the area of the spell itself as an unlocked, weak
+ley line.</text>
+	<roll></roll>
+</spell>    
 
+<spell>
+	<name>Analyze Device</name>
+	<classes>Bard</classes>
+	<level>1</level>
+	<school>D</school>
+	<ritual>NO</ritual>
+	<time>1 hour</time>
+	<range>Touch</range>
+	<components>V, S, M (a complete set of clockworker's tools)</components>
+	<duration>Instantaneous</duration>
+	<text>You discover all mechanical properties, mechanisms,
+and functions of a single construct or clockwork device,
+including how to activate or deactivate those functions, if
+appropriate.</text>
+	<roll></roll>
+</spell>
 
+<spell>
+	<name>Angelic Guardian</name>
+	<classes>Cleric, Paladin, Warlock</classes>
+	<level>1</level>
+	<school>C</school>
+	<ritual>NO</ritual>
+	<time>1 action</time>
+	<range>30 feet</range>
+	<components>V, S</components>
+	<duration>Concentration, up to 1 minute</duration>
+	<text>You conjure a minor celestial manifestation to protect a
+creature you can see within range. A faintly glowing figure
+resembling a human head and shoulders hovers within
+5 feet of the target for the duration. The figure moves
+to interpose itself between the target and any incoming
+attacks, granting the target +2 to AC.
+If the target fails a Dexterity saving throw while the spell
+is active, it can use its reaction to roll a new save. The spell
+then ends.</text>
+	<roll></roll>
+</spell>
+
+<spell>
+	<name>Animate Construst</name>
+	<classes></classes>
+	<level>1</level>
+	<school>T</school>
+	<ritual>NO</ritual>
+	<time>1 action</time>
+	<range>30 feet</range>
+	<components>V, S, M (a construct body of appropriate size)</components>
+	<duration>Concentration, up to 10 minutes (see below)</duration>
+	<text>This spell animates a carefully prepared construct of Tiny
+size. The object acts immediately, on your turn, and can
+attack your opponents to the best of its ability. You can
+direct it not to attack, to attack particular enemies, or to
+perform other actions. You choose the object to animate,
+and you can change that choice each time you cast the
+spell. The cost of the body to be animated is 10 gp x its
+hit points. The body can be reused any number of times,
+provided it isn't severely damaged or destroyed.
+If no prepared construct body is available, you can
+animate a mass of loose metal or stone instead. Before
+casting, the loose objects must be arranged in a suitable
+shape (taking up to a minute), and the construct's hit
+points are halved.
+An animated construct has a Constitution of 10,
+Intelligence and Wisdom 3, and Charisma 1. Other
+characteristics are determined by the construct’s size as
+follows.
+At Higher Levels. Casting this spell using higher level
+spell slots allows you to increase the size of the construct
+animated, as shown on the table.</text>
+	<roll></roll>
+</spell>
+
+<spell>
+	<name>Arcane Sight</name>
+	<classes>Sorcerer, Warlock</classes>
+	<level>8</level>
+	<school>D</school>
+	<ritual>NO</ritual>
+	<time>1 round</time>
+	<range>Touch</range>
+	<components>V, S, M (a piece of clear quartz)</components>
+	<duration>Concentration, up to 1 hour</duration>
+	<text>The recipient of this spell gains the benefits of both true
+seeing and detect magic for 1 hour, and also knows the name
+and effect of every spell he or she witnesses during arcane
+sight's duration.</text>
+	<roll></roll>
+</spell>
+
+<spell>
+	<name>Armored Heart</name>
+	<classes>Bard, Sorcerer, Warlock</classes>
+	<level>1</level>
+	<school>C</school>
+	<ritual>NO</ritual>
+	<time>1 bonus action</time>
+	<range>Touch</range>
+	<components>V,S,M (5 gp worth of mithral dust sprinkled on the target’s skin)</components>
+	<duration>1 round</duration>
+	<text>The targeted creature gains resistance to bludgeoning,
+slashing, and piercing damage. This resistance can be
+overcome with adamantine or magical weapons.</text>
+	<roll></roll>
+</spell>
+
+<spell>
+	<name>Armored Shell</name>
+	<classes>Sorcerer, Warlock</classes>
+	<level>1</level>
+	<school>C</school>
+	<ritual>NO</ritual>
+	<time>1 bonus action</time>
+	<range>Self</range>
+	<components>V, S, M (a rivet)</components>
+	<duration>Concentration, up to 1 hour</duration>
+	<text>This spell creates a suit of magical studded leather armor
+(AC 12). It does not grant you proficiency in its use.
+Casters without the appropriate armor proficiency suffer
+disadvantage on any ability check, saving throw, or attack
+roll that involves Strength or Dexterity and cannot cast
+spells.
+At Higher Levels. Casting armored shell using a
+higher‑level spell slot creates stronger armor%3A a chain shirt
+(AC 13) at level 2, scale mail (AC 14) at level 3, chain mail
+(AC 16) at level 4, and plate armor (AC 18) at level 5.</text>
+	<roll></roll>
+</spell>
+
+<spell>
+	<name>Aspect of the Dragon</name>
+	<classes>Sorcerer</classes>
+	<level>7</level>
+	<school>T</school>
+	<ritual>NO</ritual>
+	<time>1 action</time>
+	<range>Self</range>
+	<components>V, S, M (a dragon scale)</components>
+	<duration>Concentration, up to 1 minute</duration>
+	<text>By tapping into your very blood, this spell draws out the
+ancient nature inside, demonstrating to the world you are
+not like the rest; you are descended from dragons. This
+spell allows you to assume the form of any dragon-type
+creature of challenge 10 or less.
+You assume the hit points and Hit Dice of the new form.
+When you revert to your normal form, you return to the
+number of hit points you had before you transformed.
+If you revert as a result of dropping to 0 hit points, any
+excess damage carries over to your normal form. As long
+as the excess damage doesn’t reduce your normal form to
+0 hit points, you aren’t knocked unconscious.
+You retain the benefit of any features from your class,
+race, or other source and can use them, provided that your
+new form is physically capable of doing so. You can speak
+only if the dragon can normally speak.
+When you transform, you choose whether your
+equipment falls to the ground, merges into the new form,
+or is worn by it. Worn equipment functions normally, but
+equipment doesn’t change shape or size to match the new
+form. Any equipment that the new form can’t wear must
+either fall to the ground or merge into the new form. The
+GM has final say on whether the new form can wear or use
+a particular piece of equipment. Equipment that merges
+has no effect in that state.</text>
+	<roll></roll>
+</spell>
+
+<spell>
+	<name>Auspicious Warning</name>
+	<classes>Bard, Sorcerer</classes>
+	<level>1</level>
+	<school>D</school>
+	<ritual>NO</ritual>
+	<time>1 reaction, which you take when an ally rolls an attack, ability check, or saving throw</time>
+	<range>30 feet</range>
+	<components>V</components>
+	<duration>Instantaneous</duration>
+	<text>Just in time, you call out a fortunate warning to a creature.
+The target rolls a d4 and adds the number rolled to one
+attack roll, ability check, or saving throw that they have
+just made and uses the new result for determining success
+or failure.</text>
+	<roll></roll>
+</spell>
 </compendium>
