@@ -261,4 +261,152 @@ just made and uses the new result for determining success
 or failure.</text>
         <roll></roll>
     </spell>
+    <spell>
+        <name>Bad Timing</name>
+        <classes>Bard, Sorcerer</classes>
+        <level>2</level>
+        <school>D</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>60 feet</range>
+        <components>V</components>
+        <duration>Instantaneous</duration>
+        <text>You point toward a creature that you can see and twist
+strands of chaotic energy around its fate. If the target fails
+a Charisma saving throw, the next attack roll or ability
+check the creature attempts within 10 minutes is made
+with disadvantage.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Banshee Wail</name>
+        <classes>Sorcerer, Warlock</classes>
+        <level>6</level>
+        <school>N</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Self (30 ft cone)</range>
+        <components>V, S, M (a swatch from a death shroud)</components>
+        <duration>Instantaneous</duration>
+        <text>You emit a soul-shattering wail. Every creature within a
+30-foot cone who hears the wail must make a Wisdom
+saving throw. Those that fail take 6d10 psychic damage and
+become frightened of you%3B a frightened creature repeats
+the saving throw at the end of its turn, ending the effect on
+itself on a success. Those that succeed take 3d10 psychic
+damage and aren't frightened. This spell has no effect on
+constructs and undead.</text>
+        <roll>6d10</roll>
+    </spell>
+    <spell>
+        <name>Become Nightwing</name>
+        <classes>Sorcerer, Warlock</classes>
+        <level>6</level>
+        <school>EN</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Self</range>
+        <components>V, S, M (a crow's eye)</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>By channeling the essence of the Shadow Realm into
+yourself, this spell imbues you with wings of shadow. For
+the duration of the spell, you gain a fly speed of 60 feet and
+a new attack action: nightwing breath.
+Nightwing Breath (recharge 4–6). You exhale
+shadow‑substance in a 30-foot cone. Each creature in the
+area takes 5d6 necrotic damage, or half damage with a
+successful Dexterity saving throw.</text>
+        <roll>5d6</roll>
+    </spell>
+    <spell>
+        <name>Beguiling Gift</name>
+        <classes>Bard, Cleric, Druid, Sorcerer, Warlock</classes>
+        <level>1</level>
+        <school>EN</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>S</components>
+        <duration>Instantaneous</duration>
+        <text>You implant a powerful suggestion into an item as you
+hand it to someone. If the person you hand it to accepts
+it willingly, they must make a successful Wisdom saving
+throw or use the object as it's meant to be used at their first
+opportunity: writing with a pen, consuming food or drink,
+wearing clothing, drawing a weapon, etc. After the first
+use, they're under no compulsion to continue using the
+object or even to keep it.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Benediction</name>
+        <classes>Cleric, Warlock</classes>
+        <level>0</level>
+        <school>A</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>60 feet</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You call down a blessing in the name of an angel of
+protection. A creature you can see within range shimmers
+with a faint white light. The next time the creature takes
+damage, it can roll 1d4 and reduce the damage by the
+result. The spell then ends.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Binding Oath</name>
+        <classes>Cleric, Paladin</classes>
+        <level>4</level>
+        <school>N</school>
+        <ritual>YES</ritual>
+        <time>10 minutes</time>
+        <range>30 feet</range>
+        <components>V, S, M</components>
+        <duration>Until dispelled</duration>
+        <text>You seal an agreement between two or more willing
+creatures with an oath in the name of Tyr, using ritual
+blessings and toasts of the symbel, during which both
+the oath and the consequences are clearly set out. If any
+of the sworn break this solemn vow, they are struck by a
+curse. The caster can choose either an effect appropriate
+for bestow curse or another penalty, subject to the GM’s
+approval. Binding oath can't be dismissed by dispel magic,
+but it can be removed with dispel evil and good, remove curse,
+or wish. Remove curse functions only if the spell slot used
+to cast it is equal to or higher than the spell slot used to
+cast binding oath. When the oath is broken or the effect
+removed from one of the participants, all targets are
+immediately aware that this has occurred, but no other
+details. Depending on the nature of the oath, this may or
+may not invalidate the oath for the other targets. If so, the
+spell ends for all other affected creatures, but curse effects
+already bestowed remain until dispelled.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Bitter Chains</name>
+        <classes>Sorcerer, Warlock</classes>
+        <level>2</level>
+        <school>T</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>V, S, M (a spiked metal ring)</components>
+        <duration>1 minute</duration>
+        <text>The spiked ring in your hand multiplies itself into a long,
+barbed chain to ensnare a creature you touch. Make a
+melee spell attack against the target. On a hit, the target is
+bound in metal chains for the duration. While bound, the
+target can move only at half speed and has disadvantage
+on attack rolls, saving throws, and Dexterity checks. If it
+moves more than 5 feet during a turn, it takes 3d6 piercing
+damage from the barbs.
+The creature can escape from the chains by using an
+action and making a successful Strength or Dexterity
+check against your spell save DC, or if the chains are
+destroyed. The chains have AC 18 and 20 hit points.</text>
+        <roll>3d6</roll>
+    </spell>
 </compendium>
