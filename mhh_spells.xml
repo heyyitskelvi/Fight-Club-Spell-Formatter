@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+    <spell>
+      <name>Absolute Command</name>
+        <classes>Wizard</classes>
+        <level>4</level>
+        <school>T</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>V, S, M (a pair of small gloves fitted with a conduit and worth 100 g)</components>
+        <duration>Concentration, up to 10 minutes</duration>
+        <text>You can control a construct you have built with a challenge rating of 6 or less. You can manipulate objects with your construct as precisely as its construction allows, and you perceive its surroundings through its sensory inputs as if you inhabited its body. The construct uses the caster's Proficiency bonus (modified by the construct's Strength and Dexterity scores). You can use the manipulators of the construct to perform any number of skill-based tasks, using the construct's Strength and Dexterity modifiers when using skills based on those particular abilities.\nYour body remains immobile, as if paralyzed, for the duration of the spell. The construct must remain within 100 feet of you. If it moves beyond this distance, the spell immediately ends and the caster's mind returns to his body.
+        At higher levels. When you cast this spell using higher-level spell slots, you may control a construct with a challenge rating 2 higher for each slot level you use above 4th. The construct’s range also increases by 10 feet for each slot level.</text>
+    </spell>
+    <spell>
+        <name>Acid Rain</name>
+        <classes>Sorcerer, Wizard, Warlocks</classes>
+        <level>5</level>
+        <school>C</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <components>V, S, M (a drop of acid)</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You unleash a storm of swirling acid in a cylinder 20 feet wide and 30 feet high centered on a point you can see. The area is heavily obscured by the driving acidfall. A creature that starts its turn in the area or that enters the area for the first time on its turn takes 6d6 acid damage, or half damage with a successful Dexterity saving throw. A creature takes half damage from the acid (as if it had made a successful saving throw) automatically at the start of its first turn after leaving the affected area.
+        At higher levels. When you cast this spell using a spell slot of 2nd level or higher, you can target an additional willing creature for each slot level above 1st.</text>
+        <roll>6d6</roll>
+        <roll>7d6</roll>
+        <roll>8d6</roll>
+        <roll>9d6</roll>
+        <roll>10d6</roll>
+    </spell>
+    <spell>
+    <name>Adjust Positioning</name>
+    <classes></classes>
+    <level>1</level>
+    <school>T</school>
+    <ritual>NO</ritual>
+    <time>1 bonus action</time>
+    <range>30 ft</range>
+    <components>V</components>
+    <duration>Instantaneous</duration>
+    <text>You adjust the location of an ally to a better tactical
+position. You move one willing creature 5 feet. This
+movement does not provoke opportunity attacks. The
+creature moves bodily through the intervening space
+(as opposed to teleporting or gating), so there can be no
+physical blockage (wall, door) between them.
+At Higher Levels. When you cast this spell using
+a spell slot of 2nd level or higher, you can target an
+additional willing creature for each slot level above 1st.</text>
+    <roll></roll>
+</spell>
+    <spell>
+        <name>Afflict Line</name>
+        <classes>Cleric, Warlock,</classes>
+        <level>9</level>
+        <school>N</school>
+        <ritual>YES</ritual>
+        <time>1 hour</time>
+        <range>1 mile</range>
+        <components>V, S, M (a statuette carved in the likeness of the victim worth 1%2C250 gp)</components>
+        <duration>Permanent; one generation</duration>
+        <text>You invoke the darkest curses upon your victim and his or her descendants. This spell does not require that you have a clear path to your target, only that your target is within range. Your target must make a successful Wisdom saving throw or be cursed until the magic is dispelled. The victim has disadvantage on ability checks and saving throws made with the ability score that you choose when you cast the spell. In addition, the target's firstborn offspring is also targeted by the curse. The firstborn is allowed a saving throw of their own if they currently live, or they make one upon their birth if they're not yet born when the spell is cast. If the target's firstborn has already died, the curse passes to their next oldest offspring. 
+      Ritual Focus. If you expend your ritual focus, the curse becomes hereditary, passing from firstborn to firstborn for the entire length of the family's lineage until one of them successfully saves against the curse and throws off your dark magic.</text>
+        <roll></roll>
+    </spell>
+
+        
+
+
+</compendium>

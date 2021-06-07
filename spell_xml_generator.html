@@ -1,0 +1,240 @@
+<html>
+	<head>
+		<title>Fight Club Spell XML Generator</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<style type="text/css">
+  			body{
+  				background-color: black;
+  				color: white;
+  			}
+  			.float-container {
+    			padding: 20px;
+			}
+
+			.float-child {
+    			width: 50%;
+    			float: left;
+    			padding: 20px;
+			}
+			.black-text-area{
+				background-color: black !important;
+				color: white !important;
+			}
+  		</style>
+	</head>
+	<body>
+		<div id="body_container" class="float-container">
+			<div id="form_container" class="float-child" style="width:50%; text-align: center;">
+				<form id="form">
+					<div class="form-group">
+						<label for="spell_name">Spell Name</label>
+						<input name="spell_name" id="spell_name" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="bard_check" class="form-check-label">Bard</label>
+						<input name="bard_check" id="bard_check" type="checkbox" class="form-check-input">
+						<label for="cleric_check" class="form-check-label">Cleric</label>
+						<input name="cleric_check" id="cleric_check" type="checkbox" class="form-check-input">
+						<label for="druid_check" class="form-check-label">Druid</label>
+						<input name="druid_check" id="druid_check" type="checkbox" class="form-check-input">
+						<label for="paladin_check" class="form-check-label">Paladin</label>
+						<input name="paladin_check" id="paladin_check" type="checkbox" class="form-check-input">
+						<label for="ranger_check" class="form-check-label">Ranger</label>
+						<input name="ranger_check" id="ranger_check" type="checkbox" class="form-check-input">
+						<label for="sorcerer_check" class="form-check-label">Sorcerer</label>
+						<input name="sorcerer_check" id="sorcerer_check" type="checkbox" class="form-check-input">
+						<label for="warlock_check" class="form-check-label">Warlock</label>
+						<input name="warlock_check" id="warlock_check" type="checkbox" class="form-check-input">
+						<label for="wizard_check" class="form-check-label">Wizard</label>
+						<input name="wizard_check" id="wizard_check" type="checkbox" class="form-check-input">
+					</div>
+					<div class="form-group">
+						<label for="spell_level">Spell Level</label>
+						<select name="spell_level" id="spell_level" class="form-control">
+							<option value="0">Cantrip</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="spell_school">Spell School</label>
+						<select name="spell_school" id="spell_school" class="form-control">
+							<option value="A">Abjuration</option>
+							<option value="C">Conjuration</option>
+							<option value="D">Divination</option>
+							<option value="DU">Dunamancy</option>
+							<option value="EN">Enchantment</option>
+							<option value="EV">Evocation</option>
+							<option value="I">Illusion</option>
+							<option value="N">Necromancy</option>
+							<option value="T">Transmutation</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="spell_ritual" class=""form-check-label>Ritual</label>
+						<input name="spell_ritual" id="spell_ritual" type="checkbox" value="on" class="form-check-input"><br>
+					</div>
+					<div class="form-group">
+						<label for="spell_time">Time</label>
+						<input name="spell_time" id="spell_time" type="text" class="form-control">
+
+						<label for="spell_range">Range</label>
+						<input name="spell_range" id="spell_range" type="text" class="form-control">
+
+						<label for="spell_components">Components</label>
+						<input name="spell_components" id="spell_components" type="text" class="form-control">
+
+						<label for="spell_duration">Duration</label>
+						<input name="spell_duration" id="spell_duration" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="spell_text">Text</label>
+						<textarea name="spell_text" id="spell_text" type="text" rows="6" cols="50" class="form-control"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="spell_rolls">Rolls (seperated by spaces)</label>
+						<textarea name="spell_rolls" id="spell_rolls" type="text" rows="6" cols="50" class="form-control"></textarea>
+					</div>
+					<button id="button" class="btn btn-primary">Output XML</button>
+				</form>	
+			</div>
+			<div id="output_container" class="float-child black" style="width:50%;">
+				<label for="output_xml">Output</label>
+				<textarea class="form-control black-text-area" name="output_xml" id="output_xml" rows="50" cols="100" disabled></textarea>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('#button').click(function outputXML(){
+				//$('#output_xml').empty();
+
+				var str = $("form").serialize();
+				var strArray = str.split("&");
+
+				var rollArray = [];
+				var rollsXMLString = "";
+
+				for(i = 0; i < strArray.length; i++){
+					var loopArray = strArray[i].split("=");
+					
+					switch(loopArray[0]){
+						case "spell_name":
+							var spellName = loopArray[1];
+							break;
+							//console.log(spellName);
+						case "spell_level":
+							var spellLevel = loopArray[1];
+							break;
+						case "spell_school":
+							var spellSchool = loopArray[1];
+							break;
+						case "spell_time":
+							var spellTime = loopArray[1];
+							break;
+						case "spell_components":
+							var spellComponents = loopArray[1];
+							break;
+						case "spell_duration":
+							var spellDuration = loopArray[1];
+							break;
+						case "spell_range":
+							var spellRange = loopArray[1];
+							break;
+						case "spell_text":
+							var spellText = loopArray[1].replaceAll("%2C", ',');
+							spellText = spellText.replace(/ +/g, ' ');
+							break;
+						case "spell_rolls":
+							//console.log(loopArray[1]);
+							var tempRollArray = loopArray[1].split("%20");
+							for(j = 0; j < tempRollArray.length; j++){
+								rollArray.push(tempRollArray[j]);
+							}
+							break;
+					}
+				}
+
+				for(i = 0; i < rollArray.length; i++){
+					rollsXMLString += "<roll>" + rollArray[i].trim() + "</roll>";
+					//console.log(rollsXMLString);
+				}
+
+				var spellClasses = "";
+
+				var isBardChecked = $('#bard_check').is(':checked');
+				if(isBardChecked){
+					spellClasses += "Bard, ";
+				}
+				var isClericChecked = $('#cleric_check').is(':checked');
+				if(isClericChecked){
+					spellClasses += "Cleric, ";
+				}
+				var isDruidChecked = $('#druid_check').is(':checked');
+				if(isDruidChecked){
+					spellClasses += "Druid, ";
+				}
+				var isPaladinChecked = $('#paladin_check').is(':checked');
+				if(isPaladinChecked){
+					spellClasses += "Paladin, ";
+				}
+				var isRangerChecked = $('#ranger_check').is(':checked');
+				if(isRangerChecked){
+					spellClasses += "Ranger, ";
+				}
+				var isSorcererChecked = $('#sorcerer_check').is(':checked');
+				if(isSorcererChecked){
+					spellClasses += "Sorcerer, ";
+				}
+				var isWarlockChecked = $('#warlock_check').is(':checked');
+				if(isWarlockChecked){
+					spellClasses += "Warlock, ";
+				}
+				var isWizardChecked = $('#Wizard_check').is(':checked');
+				if(isWizardChecked){
+					spellClasses += "Wizard, ";
+				}
+
+				spellClasses = decodeURI(spellClasses.substring(0, spellClasses.length - 1));
+
+
+
+				var isRitualChecked = $('#spell_ritual').is(':checked');
+				if(isRitualChecked){
+					var spellRitual = "YES";
+				}
+				else{
+					var spellRitual ="NO";
+				}
+
+				var fullXMLString = 
+`<spell>
+	<name>` + spellName + `</name>
+	<classes>` + spellClasses + `</classes>
+	<level>` + spellLevel + `</level>
+	<school>` + spellSchool + `</school>
+	<ritual>` + spellRitual + `</ritual>
+	<time>` + spellTime + `</time>
+	<range>` + spellRange + `</range>
+	<components>` + spellComponents + `</components>
+	<duration>` + spellDuration + `</duration>
+	<text>` + spellText + `</text>
+	` + rollsXMLString + `
+</spell>`;
+
+				var decodedXMLString = decodeURI(fullXMLString);
+				console.log(decodedXMLString);
+				$('#output_xml').val(decodedXMLString); 
+				return false;
+			});
+		</script>
+	</body>
+</html>
