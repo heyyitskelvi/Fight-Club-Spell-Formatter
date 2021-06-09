@@ -40,15 +40,8 @@
         <range>30 ft</range>
         <components>V</components>
         <duration>Instantaneous</duration>
-        <text>You adjust the location of an ally to a better tactical
-position. You move one willing creature 5 feet. This
-movement does not provoke opportunity attacks. The
-creature moves bodily through the intervening space
-(as opposed to teleporting or gating), so there can be no
-physical blockage (wall, door) between them.
-At Higher Levels. When you cast this spell using
-a spell slot of 2nd level or higher, you can target an
-additional willing creature for each slot level above 1st.</text>
+        <text>You adjust the location of an ally to a better tactical position. You move one willing creature 5 feet. This movement does not provoke opportunity attacks. The creature moves bodily through the intervening space (as opposed to teleporting or gating), so there can be no physical blockage (wall, door) between them. 
+		At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target an additional willing creature for each slot level above 1st.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -62,7 +55,7 @@ additional willing creature for each slot level above 1st.</text>
         <components>V, S, M (a statuette carved in the likeness of the victim worth 1%2C250 gp)</components>
         <duration>Permanent; one generation</duration>
         <text>You invoke the darkest curses upon your victim and his or her descendants. This spell does not require that you have a clear path to your target, only that your target is within range. Your target must make a successful Wisdom saving throw or be cursed until the magic is dispelled. The victim has disadvantage on ability checks and saving throws made with the ability score that you choose when you cast the spell. In addition, the target's firstborn offspring is also targeted by the curse. The firstborn is allowed a saving throw of their own if they currently live, or they make one upon their birth if they're not yet born when the spell is cast. If the target's firstborn has already died, the curse passes to their next oldest offspring. 
-      Ritual Focus. If you expend your ritual focus, the curse becomes hereditary, passing from firstborn to firstborn for the entire length of the family's lineage until one of them successfully saves against the curse and throws off your dark magic.</text>
+        Ritual Focus. If you expend your ritual focus, the curse becomes hereditary, passing from firstborn to firstborn for the entire length of the family's lineage until one of them successfully saves against the curse and throws off your dark magic.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -75,13 +68,7 @@ additional willing creature for each slot level above 1st.</text>
         <range>Self (10 ft radius sphere)</range>
         <components>V, S</components>
         <duration>Concentration, up to 10 minutes</duration>
-        <text>You create a faintly shimmering field of charged energy
-around yourself. Within that area, the intensity of ley lines
-you're able to draw on increases from weak to strong, or
-from strong to titanic.
-If no ley lines are near enough for you to draw on, you
-can treat the area of the spell itself as an unlocked, weak
-ley line.</text>
+        <text>You create a faintly shimmering field of charged energy around yourself. Within that area, the intensity of ley lines you're able to draw on increases from weak to strong, or from strong to titanic. If no ley lines are near enough for you to draw on, you can treat the area of the spell itself as an unlocked, weak ley line.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -94,10 +81,7 @@ ley line.</text>
         <range>Touch</range>
         <components>V, S, M (a complete set of clockworker's tools)</components>
         <duration>Instantaneous</duration>
-        <text>You discover all mechanical properties, mechanisms,
-and functions of a single construct or clockwork device,
-including how to activate or deactivate those functions, if
-appropriate.</text>
+        <text>You discover all mechanical properties, mechanisms, and functions of a single construct or clockwork device, including how to activate or deactivate those functions, if appropriate.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -110,15 +94,7 @@ appropriate.</text>
         <range>30 feet</range>
         <components>V, S</components>
         <duration>Concentration, up to 1 minute</duration>
-        <text>You conjure a minor celestial manifestation to protect a
-creature you can see within range. A faintly glowing figure
-resembling a human head and shoulders hovers within
-5 feet of the target for the duration. The figure moves
-to interpose itself between the target and any incoming
-attacks, granting the target +2 to AC.
-If the target fails a Dexterity saving throw while the spell
-is active, it can use its reaction to roll a new save. The spell
-then ends.</text>
+        <text>You conjure a minor celestial manifestation to protect a creature you can see within range. A faintly glowing figure resembling a human head and shoulders hovers within 5 feet of the target for the duration. The figure moves to interpose itself between the target and any incoming attacks, granting the target +2 to AC. If the target fails a Dexterity saving throw while the spell is active, it can use its reaction to roll a new save. The spell then ends.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -131,27 +107,9 @@ then ends.</text>
         <range>30 feet</range>
         <components>V, S, M (a construct body of appropriate size)</components>
         <duration>Concentration, up to 10 minutes (see below)</duration>
-        <text>This spell animates a carefully prepared construct of Tiny
-size. The object acts immediately, on your turn, and can
-attack your opponents to the best of its ability. You can
-direct it not to attack, to attack particular enemies, or to
-perform other actions. You choose the object to animate,
-and you can change that choice each time you cast the
-spell. The cost of the body to be animated is 10 gp x its
-hit points. The body can be reused any number of times,
-provided it isn't severely damaged or destroyed.
-If no prepared construct body is available, you can
-animate a mass of loose metal or stone instead. Before
-casting, the loose objects must be arranged in a suitable
-shape (taking up to a minute), and the construct's hit
-points are halved.
-An animated construct has a Constitution of 10,
-Intelligence and Wisdom 3, and Charisma 1. Other
-characteristics are determined by the construct’s size as
-follows.
-At Higher Levels. Casting this spell using higher level
-spell slots allows you to increase the size of the construct
-animated, as shown on the table.</text>
+        <text>This spell animates a carefully prepared construct of Tiny size. The object acts immediately, on your turn, and can attack your opponents to the best of its ability. You can direct it not to attack, to attack particular enemies, or to perform other actions. You choose the object to animate, and you can change that choice each time you cast the spell. The cost of the body to be animated is 10 gp x its hit points. The body can be reused any number of times, provided it isn't severely damaged or destroyed. If no prepared construct body is available, you can animate a mass of loose metal or stone instead. Before casting, the loose objects must be arranged in a suitable shape (taking up to a minute), and the construct's hit points are halved.
+		An animated construct has a Constitution of 10, Intelligence and Wisdom 3, and Charisma 1. Other characteristics are determined by the construct’s size as follows.
+		At Higher Levels. Casting this spell using higher level spell slots allows you to increase the size of the construct animated, as shown on the table.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -164,10 +122,7 @@ animated, as shown on the table.</text>
         <range>Touch</range>
         <components>V, S, M (a piece of clear quartz)</components>
         <duration>Concentration, up to 1 hour</duration>
-        <text>The recipient of this spell gains the benefits of both true
-seeing and detect magic for 1 hour, and also knows the name
-and effect of every spell he or she witnesses during arcane
-sight's duration.</text>
+        <text>The recipient of this spell gains the benefits of both true seeing and detect magic for 1 hour, and also knows the name and effect of every spell he or she witnesses during arcane sight's duration.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -180,9 +135,7 @@ sight's duration.</text>
         <range>Touch</range>
         <components>V,S,M (5 gp worth of mithral dust sprinkled on the target’s skin)</components>
         <duration>1 round</duration>
-        <text>The targeted creature gains resistance to bludgeoning,
-slashing, and piercing damage. This resistance can be
-overcome with adamantine or magical weapons.</text>
+        <text>The targeted creature gains resistance to bludgeoning, slashing, and piercing damage. This resistance can be overcome with adamantine or magical weapons.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -195,16 +148,8 @@ overcome with adamantine or magical weapons.</text>
         <range>Self</range>
         <components>V, S, M (a rivet)</components>
         <duration>Concentration, up to 1 hour</duration>
-        <text>This spell creates a suit of magical studded leather armor
-(AC 12). It does not grant you proficiency in its use.
-Casters without the appropriate armor proficiency suffer
-disadvantage on any ability check, saving throw, or attack
-roll that involves Strength or Dexterity and cannot cast
-spells.
-At Higher Levels. Casting armored shell using a
-higher‑level spell slot creates stronger armor%3A a chain shirt
-(AC 13) at level 2, scale mail (AC 14) at level 3, chain mail
-(AC 16) at level 4, and plate armor (AC 18) at level 5.</text>
+        <text>This spell creates a suit of magical studded leather armor (AC 12). It does not grant you proficiency in its use. Casters without the appropriate armor proficiency suffer disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity and cannot cast spells.
+		At Higher Levels. Casting armored shell using a higher level spell slot creates stronger armor%3A a chain shirt (AC 13) at level 2, scale mail (AC 14) at level 3, chain mail (AC 16) at level 4, and plate armor (AC 18) at level 5.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -217,31 +162,10 @@ higher‑level spell slot creates stronger armor%3A a chain shirt
         <range>Self</range>
         <components>V, S, M (a dragon scale)</components>
         <duration>Concentration, up to 1 minute</duration>
-        <text>By tapping into your very blood, this spell draws out the
-ancient nature inside, demonstrating to the world you are
-not like the rest; you are descended from dragons. This
-spell allows you to assume the form of any dragon-type
-creature of challenge 10 or less.
-You assume the hit points and Hit Dice of the new form.
-When you revert to your normal form, you return to the
-number of hit points you had before you transformed.
-If you revert as a result of dropping to 0 hit points, any
-excess damage carries over to your normal form. As long
-as the excess damage doesn’t reduce your normal form to
-0 hit points, you aren’t knocked unconscious.
-You retain the benefit of any features from your class,
-race, or other source and can use them, provided that your
-new form is physically capable of doing so. You can speak
-only if the dragon can normally speak.
-When you transform, you choose whether your
-equipment falls to the ground, merges into the new form,
-or is worn by it. Worn equipment functions normally, but
-equipment doesn’t change shape or size to match the new
-form. Any equipment that the new form can’t wear must
-either fall to the ground or merge into the new form. The
-GM has final say on whether the new form can wear or use
-a particular piece of equipment. Equipment that merges
-has no effect in that state.</text>
+        <text>By tapping into your very blood, this spell draws out the ancient nature inside, demonstrating to the world you are not like the rest; you are descended from dragons. This spell allows you to assume the form of any dragon-type creature of challenge 10 or less. You assume the hit points and Hit Dice of the new form.
+		When you revert to your normal form, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. As long as the excess damage doesn’t reduce your normal form to 0 hit points, you aren’t knocked unconscious.
+        You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You can speak only if the dragon can normally speak.
+		When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions normally, but equipment doesn’t change shape or size to match the new form. Any equipment that the new form can’t wear must either fall to the ground or merge into the new form. The GM has final say on whether the new form can wear or use a particular piece of equipment. Equipment that merges has no effect in that state.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -254,11 +178,7 @@ has no effect in that state.</text>
         <range>30 feet</range>
         <components>V</components>
         <duration>Instantaneous</duration>
-        <text>Just in time, you call out a fortunate warning to a creature.
-The target rolls a d4 and adds the number rolled to one
-attack roll, ability check, or saving throw that they have
-just made and uses the new result for determining success
-or failure.</text>
+        <text>Just in time, you call out a fortunate warning to a creature. The target rolls a d4 and adds the number rolled to one attack roll, ability check, or saving throw that they have just made and uses the new result for determining success or failure.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -271,11 +191,7 @@ or failure.</text>
         <range>60 feet</range>
         <components>V</components>
         <duration>Instantaneous</duration>
-        <text>You point toward a creature that you can see and twist
-strands of chaotic energy around its fate. If the target fails
-a Charisma saving throw, the next attack roll or ability
-check the creature attempts within 10 minutes is made
-with disadvantage.</text>
+        <text>You point toward a creature that you can see and twist strands of chaotic energy around its fate. If the target fails a Charisma saving throw, the next attack roll or ability check the creature attempts within 10 minutes is made with disadvantage.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -288,14 +204,7 @@ with disadvantage.</text>
         <range>Self (30 ft cone)</range>
         <components>V, S, M (a swatch from a death shroud)</components>
         <duration>Instantaneous</duration>
-        <text>You emit a soul-shattering wail. Every creature within a
-30-foot cone who hears the wail must make a Wisdom
-saving throw. Those that fail take 6d10 psychic damage and
-become frightened of you%3B a frightened creature repeats
-the saving throw at the end of its turn, ending the effect on
-itself on a success. Those that succeed take 3d10 psychic
-damage and aren't frightened. This spell has no effect on
-constructs and undead.</text>
+        <text>You emit a soul-shattering wail. Every creature within a 30-foot cone who hears the wail must make a Wisdom saving throw. Those that fail take 6d10 psychic damage and become frightened of you%3B a frightened creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Those that succeed take 3d10 psychic damage and aren't frightened. This spell has no effect on constructs and undead.</text>
         <roll>6d10</roll>
     </spell>
     <spell>
@@ -308,14 +217,8 @@ constructs and undead.</text>
         <range>Self</range>
         <components>V, S, M (a crow's eye)</components>
         <duration>Concentration, up to 1 minute</duration>
-        <text>By channeling the essence of the Shadow Realm into
-yourself, this spell imbues you with wings of shadow. For
-the duration of the spell, you gain a fly speed of 60 feet and
-a new attack action: nightwing breath.
-Nightwing Breath (recharge 4–6). You exhale
-shadow‑substance in a 30-foot cone. Each creature in the
-area takes 5d6 necrotic damage, or half damage with a
-successful Dexterity saving throw.</text>
+        <text>By channeling the essence of the Shadow Realm into yourself, this spell imbues you with wings of shadow. For the duration of the spell, you gain a fly speed of 60 feet and a new attack action: nightwing breath. 
+	Nightwing Breath (recharge 4–6). You exhale shadow‑substance in a 30-foot cone. Each creature in the area takes 5d6 necrotic damage, or half damage with a successful Dexterity saving throw.</text>
         <roll>5d6</roll>
     </spell>
     <spell>
@@ -328,14 +231,7 @@ successful Dexterity saving throw.</text>
         <range>Touch</range>
         <components>S</components>
         <duration>Instantaneous</duration>
-        <text>You implant a powerful suggestion into an item as you
-hand it to someone. If the person you hand it to accepts
-it willingly, they must make a successful Wisdom saving
-throw or use the object as it's meant to be used at their first
-opportunity: writing with a pen, consuming food or drink,
-wearing clothing, drawing a weapon, etc. After the first
-use, they're under no compulsion to continue using the
-object or even to keep it.</text>
+        <text>You implant a powerful suggestion into an item as you hand it to someone. If the person you hand it to accepts it willingly, they must make a successful Wisdom saving throw or use the object as it's meant to be used at their first opportunity: writing with a pen, consuming food or drink, wearing clothing, drawing a weapon, etc. After the first use, they're under no compulsion to continue using the object or even to keep it.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -348,11 +244,7 @@ object or even to keep it.</text>
         <range>60 feet</range>
         <components>V, S</components>
         <duration>Concentration, up to 1 minute</duration>
-        <text>You call down a blessing in the name of an angel of
-protection. A creature you can see within range shimmers
-with a faint white light. The next time the creature takes
-damage, it can roll 1d4 and reduce the damage by the
-result. The spell then ends.</text>
+        <text>You call down a blessing in the name of an angel of protection. A creature you can see within range shimmers with a faint white light. The next time the creature takes damage, it can roll 1d4 and reduce the damage by the result. The spell then ends.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -365,24 +257,7 @@ result. The spell then ends.</text>
         <range>30 feet</range>
         <components>V, S, M</components>
         <duration>Until dispelled</duration>
-        <text>You seal an agreement between two or more willing
-creatures with an oath in the name of Tyr, using ritual
-blessings and toasts of the symbel, during which both
-the oath and the consequences are clearly set out. If any
-of the sworn break this solemn vow, they are struck by a
-curse. The caster can choose either an effect appropriate
-for bestow curse or another penalty, subject to the GM’s
-approval. Binding oath can't be dismissed by dispel magic,
-but it can be removed with dispel evil and good, remove curse,
-or wish. Remove curse functions only if the spell slot used
-to cast it is equal to or higher than the spell slot used to
-cast binding oath. When the oath is broken or the effect
-removed from one of the participants, all targets are
-immediately aware that this has occurred, but no other
-details. Depending on the nature of the oath, this may or
-may not invalidate the oath for the other targets. If so, the
-spell ends for all other affected creatures, but curse effects
-already bestowed remain until dispelled.</text>
+        <text>You seal an agreement between two or more willing creatures with an oath in the name of Tyr, using ritual blessings and toasts of the symbel, during which both the oath and the consequences are clearly set out. If any of the sworn break this solemn vow, they are struck by a curse. The caster can choose either an effect appropriate for bestow curse or another penalty, subject to the GM’s approval. Binding oath can't be dismissed by dispel magic, but it can be removed with dispel evil and good, remove curse, or wish. Remove curse functions only if the spell slot used to cast it is equal to or higher than the spell slot used to cast binding oath. When the oath is broken or the effect removed from one of the participants, all targets are immediately aware that this has occurred, but no other details. Depending on the nature of the oath, this may or may not invalidate the oath for the other targets. If so, the spell ends for all other affected creatures, but curse effects already bestowed remain until dispelled.</text>
         <roll></roll>
     </spell>
     <spell>
@@ -395,18 +270,288 @@ already bestowed remain until dispelled.</text>
         <range>Touch</range>
         <components>V, S, M (a spiked metal ring)</components>
         <duration>1 minute</duration>
-        <text>The spiked ring in your hand multiplies itself into a long,
-barbed chain to ensnare a creature you touch. Make a
-melee spell attack against the target. On a hit, the target is
-bound in metal chains for the duration. While bound, the
-target can move only at half speed and has disadvantage
-on attack rolls, saving throws, and Dexterity checks. If it
-moves more than 5 feet during a turn, it takes 3d6 piercing
-damage from the barbs.
-The creature can escape from the chains by using an
-action and making a successful Strength or Dexterity
-check against your spell save DC, or if the chains are
-destroyed. The chains have AC 18 and 20 hit points.</text>
+        <text>The spiked ring in your hand multiplies itself into a long, barbed chain to ensnare a creature you touch. Make a melee spell attack against the target. On a hit, the target is bound in metal chains for the duration. While bound, the target can move only at half speed and has disadvantage on attack rolls, saving throws, and Dexterity checks. If it moves more than 5 feet during a turn, it takes 3d6 piercing damage from the barbs. The creature can escape from the chains by using an action and making a successful Strength or Dexterity check against your spell save DC, or if the chains are destroyed. The chains have AC 18 and 20 hit points.</text>
         <roll>3d6</roll>
+    </spell>
+    <spell>
+        <name>Black Hand</name>
+        <classes></classes>
+        <level>4</level>
+        <school>N</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>30 feet</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You gather the powers of darkness into your fist and fling paralyzing, dark flame at a target within 30 feet. With a successful ranged spell attack, this spell siphons vitality from the target into you. For the duration, the target has disadvantage and you have advantage on attacks, ability checks, and saving throws made with Strength, Dexterity, and Constitution. An affected target makes a Constitution saving throw (with disadvantage) at the end of its turn, ending the effect with a success.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Black Ribbons</name>
+        <classes>Sorcerer, Warlock</classes>
+        <level>1</level>
+        <school>C</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>40 feet</range>
+        <components>V, S, M (a piece of ribbon</components>
+        <duration>Concentration, up to i minute</duration>
+        <text>You pull pieces of the Shadow Realm into your own reality, causing a 20-foot cube to fill with inky ribbons that turn the area into difficult terrain and wrap around nearby creatures. Any creature that ends its turn in the area becomes restrained by the shadow ribbons until the end of its next turn unless it makes a successful Dexterity saving throw. Once a creature makes this saving throw successfully, it can't be restrained again by these black ribbons, but it's still affected by the difficult terrain.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Black Swan Storm</name>
+        <classes>Sorcerer, Warlock</classes>
+        <level>2</level>
+        <school>EV</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>30 feet</range>
+        <components>V, S, M (a feather from a black swan)</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You call forth a whirlwind of black feathers that fills a cube 5 feet on each side. The feathers deal 2d8 force damage to creatures inside the cube's area and radiate darkness, causing the illumination level within 20 feet of the cube to drop by one step (from bright light to dim light, from dim light to darkness). Creatures that make a successful Dexterity saving throw suffer only half damage but are still affected by the change in light.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the feathers do an additional 1d8 force damage for each slot level above 2nd.
+Ritual Focus. If you expend your ritual focus, then you can move the whirlwind up to 15 feet by using a bonus action on your turn. If the whirlwind moves more than 30 feet from you, the spell ends.</text>
+        <roll>2d8</roll>
+        <roll>3d8</roll>
+        <roll>4d8</roll>
+        <roll>5d8</roll>
+        <roll>6d8</roll>
+        <roll>7d8</roll>
+        <roll>8d8</roll>
+        <roll>9d8</roll>
+    </spell>
+    <spell>
+        <name>Black Well</name>
+        <classes></classes>
+        <level>6</level>
+        <school>N</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>300 feet</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You summon a seething sphere of dark energy 5 feet in diameter. The sphere pulls creatures toward it and devours the life force of those it envelops. Every creature other than you that starts its turn within 90 feet of the black well must make a successful Strength saving throw or be pulled 50 feet toward the well. A creature pulled into the well takes 6d8 necrotic damage and is stunned; a successful Constitution saving throw halves the damage and reduces the stun to incapacitation. A creature that starts its turn inside the well also makes a Constitution saving throw; the creature is stunned on a failure or incapacitated on a success. An incapacitated creature that leaves the well recovers immediately and can take actions and reactions that turn. Creatures take damage only upon entering the well—they take no additional damage for remaining in it—but if they leave the well and are pulled back in again, they take damage again. A total of nine Medium creatures, three Large creatures, or one Huge creature can be inside the well's upper-dimensional space at one time. When the well's duration ends, all creatures inside it tumble out in a heap, landing prone.
+At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, the damage done by the well increases by 1d8 and the well pulls creatures an additional 5 feet for each slot level above 6th.</text>
+        <roll>6d8</roll>
+        <roll>7d8</roll>
+        <roll>8d8</roll>
+        <roll>9d8</roll>
+    </spell>
+    <spell>
+        <name>Blade of my Brother</name>
+        <classes>Cleric, Paladin</classes>
+        <level>4</level>
+        <school>T</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>V, S, M (melee weapon owned by a dead ally of the target)</components>
+        <duration>Concentration, up to 4 rounds</duration>
+        <text>You touch a melee weapon that was used by an ally who's now dead, and it animates and flies into combat. The weapon leaps into the air and flies to another ally (chosen by you and within 15 feet of you), where it enters that ally's space and never leaves their side as they move. If the weapon is forced to move more than 5 feet from the chosen ally, the spell ends. Its attack modifier equals your spellcasting level + the weapon's inherent magical bonus, if any; it receives only its own inherent magical bonus to damage. The weapon fights for up to 4 rounds, at which point it falls to the ground.
+</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Blade of Wrath</name>
+        <classes>Cleric, Paladin, Warlock</classes>
+        <level>3</level>
+        <school>EV</school>
+        <ritual>NO</ritual>
+        <time>1 bonus action</time>
+        <range>Self</range>
+        <components>V, S, M (a rebuke of evil, written in Celestial)</components>
+        <duration>Concentration, up to 10 minutes</duration>
+        <text>You create a sword of pure white fire in your free hand. The blade is similar in size and shape to a longsword, and it lasts for the duration. If you let go of the blade it disappears, but you can call it forth again as a bonus action.
+You can use your action to make a melee spell attack with the blade. On a hit, the target takes 2d8 fire damage and 2d8 radiant damage. An aberration, fey, fiend, or undead creature damaged by the blade must succeed on a Wisdom saving throw or be frightened until the start of your next turn.
+The blade sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the fire damage or the radiant damage (your choice) increases by 1d8 for each slot level above 3rd.</text>
+        <roll>4d8</roll>
+        <roll>4d8</roll>
+        <roll>5d8</roll>
+        <roll>6d8</roll>
+        <roll>7d8</roll>
+        <roll>8d8</roll>
+        <roll>9d8</roll>
+    </spell>
+    <spell>
+        <name>Blazing Chariot</name>
+        <classes>Cleric, Paladin, Warlock</classes>
+        <level>5</level>
+        <school>C</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range> 30 feet</range>
+        <components>V, S, M (a small golden wheel worth 250 gp)</components>
+        <duration>1 hour</duration>
+        <text>Calling upon the might of the angels, you conjure a flaming chariot made of gold and mithral in an unoccupied space you can see within range. Two horses made of fire and light pull the chariot. You and up to three other Medium or smaller creatures you designate can board the chariot (at the cost of 5 feet of movement) and are unharmed by the flames. Any other creature who touches the chariot or hits it or a creature riding in it with a melee attack while within 5 feet of the chariot takes 3d6 fire damage and 3d6 radiant damage. The chariot is AC 18, has 50 hit points, is immune to fire, poison, psychic, and radiant damage, and is resistant to all other nonmagical damage. The horses are not separate creatures but are part of the chariot. The chariot vanishes if it's reduced to 0 hit points, and any creature riding it falls. The chariot has a speed of 50 feet and a fly speed of 40 feet.
+On your turn, you can guide the chariot in place of your own movement. You can direct it to Dash, Disengage, or Dodge by using your bonus action. As an action, you can cause the chariot to overrun creatures in its path. For the remainder of the turn, the chariot can enter a hostile creature’s space. The creature takes damage as if it touched the chariot and must make a successful Strength saving throw or be knocked prone.</text>
+        <roll>6d6</roll>
+    </spell>
+    <spell>
+        <name>Bless The Dead</name>
+        <classes>Cleric, Druid, Warlock</classes>
+        <level>0</level>
+        <school>A</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>V, S</components>
+        <duration>Instantaneous</duration>
+        <text>You grant a blessing to one deceased creature, allowing it to cross over to the realm of the dead in peace. A creature that benefits from bless the dead can't become undead. The spell has no effect on either the living or the undead.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Blessed Halo</name>
+        <classes>Cleric, Paladin, Warlock</classes>
+        <level>2</level>
+        <school>EV</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Self</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>A nimbus of golden light surrounds your head for the duration. The halo sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+This spell grants you a pool of 10 points of healing. When you cast the spell and as an action on subsequent turns during the spell’s duration, you can expend points from this pool to restore an equal number of lost hit points to one creature within the spell’s bright light that you can see.
+Additionally, you have advantage on Charisma checks made against good creatures within the blessed halo's light.
+If any of this spell’s area overlaps an area of magical darkness created by a spell of 2nd level or lower, the spell that created the darkness is dispelled.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the spell’s pool of healing increases by 5 points for each spell slot above 2nd and this spell dispels darkness spells of a level equal to the slot used in casting blessed halo.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Blizzard</name>
+        <classes>Sorcerer, Warlock</classes>
+        <level>7</level>
+        <school>C</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>100 feet</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>A howling storm of thick snow and ice crystals appears in a cylinder 40 feet high and 40 feet in diameter. The area is heavily obscured by the swirling snow. When the storm appears, each creature in the area takes 8d8 cold damage, or half damage with a successful Constitution saving throw. A creature also makes this saving throw and takes damage when it enters the area for the first time on a turn or ends its turn there. In addition, a creature that takes cold damage from this spell has disadvantage on Constitution saving throws to maintain concentration until the start of its next turn.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Bloom</name>
+        <classes>Cleric, Druid</classes>
+        <level>8</level>
+        <school>C</school>
+        <ritual>YES</ritual>
+        <time>1 hour</time>
+        <range>1 mile</range>
+        <components>V, S, M (a silver acorn worth 500 gp, which is consumed in the casting)</components>
+        <duration>1 year</duration>
+        <text>You plant a silver acorn in solid ground and spend an hour chanting a litany of praises to the natural world, after which the land within 1 mile of the acorn becomes extremely fertile, regardless of its previous state. Any seeds planted in the area of effect grow at twice the natural rate. Food harvested regrows within a week. After one year, the land slowly reverts to its normal fertility, unable to stave off the march of nature.
+Choose one of the following effects, which appears and
+grows immediately:
+• A field planted with vegetables of your choice, ready for
+harvest.
+• A thick forest of stout trees and ample undergrowth.
+• A grassland with wildflowers and fodder for grazing.
+• An orchard of fruit trees of your choice, growing in
+orderly rows and ready for harvest.
+Living creatures that take a short rest within the area of a bloom receive the maximum hit points for hit dice expended. Bloom counters the effects of a desolation spell.
+Ritual Focus. If you expend your ritual focus, the duration becomes permanent.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Boiling Oil</name>
+        <classes>Sorcerer</classes>
+        <level>2</level>
+        <school>C</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>60 feet</range>
+        <components>V, S, M (a vial of oil)</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You conjure a shallow, 30-foot-diameter pool of boiling oil centered on a point within range. The pool is difficult terrain, and any creature entering the pool or beginning its turn in the pool takes 3d8 fire damage and falls prone. Creatures that make a successful Dexterity saving throw take half damage and don't fall prone.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</text>
+        <roll>3d8</roll>
+        <roll>4d8</roll>
+        <roll>5d8</roll>
+        <roll>6d8</roll>
+        <roll>7d8</roll>
+        <roll>8d8</roll>
+        <roll>9d8</roll>
+        <roll>10d8</roll>
+    </spell>
+    <spell>
+        <name>Borea's Breath</name>
+        <classes>Cleric, Druid, Ranger</classes>
+        <level>2</level>
+        <school>T</school>
+        <ritual>YES</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>V, S</components>
+        <duration>Instantaneous</duration>
+        <text>You freeze standing water in a 20-foot cube or running water in a 10-foot cube centered on you. The water turns to solid ice. The surface becomes difficult terrain, and any creature that ends its turn on the ice must make a successful DC 10 Dexterity saving throw or fall prone.
+Creatures that are partially submerged in the water when it freezes become restrained. While restrained this way, a creature takes 1d6 cold damage at the end of its turn. It can break free by using an action to make a successful Strength check against your spell save DC.
+Creatures that are fully submerged in the water when it freezes become incapacitated and cannot breathe. While incapacitated this way, a creature takes 2d6 cold damage at the end of its turn. A trapped creature makes a DC 20 Strength saving throw after taking this damage at the end of its turn, breaking free from the ice on a success.
+The ice has AC 10 and 15 hit points. It is vulnerable to fire damage, has resistance to nonmagical slashing and piercing damage, and is immune to cold, necrotic, poison, psychic, and thunder damage.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, increase the size of the cube by 10 feet for each slot level above 2nd.</text>
+        <roll>1d6</roll>
+    </spell>
+    <spell>
+        <name>Brittling</name>
+        <classes>Druid</classes>
+        <level>4</level>
+        <school>T</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>Touch</range>
+        <components>V, S, M</components>
+        <duration>Instantaneous</duration>
+        <text>This spell uses biting cold to make a metal or stone item brittle and easy to shatter. The item's hit points are permanently reduced by a number equal to your spellcasting level, and Strength checks to shatter or break the item within 1 minute of the spell's casting are made with advantage. If the item isn't shattered, it can be repaired as normal.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>Broken Charge</name>
+        <classes>Bard, Warlock</classes>
+        <level>1</level>
+        <school>EN</school>
+        <ritual>NO</ritual>
+        <time>1 reaction, which you take when an enemy approaches to within 6 feet of you</time>
+        <range>10 feet</range>
+        <components>V</components>
+        <duration>Instantaneous</duration>
+        <text>When an enemy that you can see tries to approach to within 6 feet of you, you utter a perplexing word that alters the foe’s path. The foe must make a successful Wisdom saving throw or take 2d4 psychic damage and use the remainder of its speed to move in a direction of your choosing. A foe that makes the saving throw successfully is unaffected.
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the target takes an additional 2d4 psychic damage for each slot level above 1st.</text>
+        <roll>2d4</roll>
+        <roll>3d4</roll>
+        <roll>4d4</roll>
+        <roll>5d4</roll>
+        <roll>6d4</roll>
+        <roll>7d4</roll>
+        <roll>8d4</roll>
+        <roll>9d4</roll>
+        <roll>10d4</roll>
+    </spell>
+    <spell>
+        <name>By the Light of the Moon</name>
+        <classes>Cleric, Druid, Ranger</classes>
+        <level>2</level>
+        <school>D</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>30 feet</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>You create a shaft of moonlight that fills a circular area 30 feet in diameter. The moonlight highlights that which is hidden or holds a useful clue. Wisdom (Perception) and Intelligence (Investigation) checks are made with advantage within the area or while searching that area.</text>
+        <roll></roll>
+    </spell>
+    <spell>
+        <name>By the Light of the Watchful Moon</name>
+        <classes>Cleric, Druid, Paladin, Ranger, Sorcerer</classes>
+        <level>4</level>
+        <school>D</school>
+        <ritual>NO</ritual>
+        <time>1 action</time>
+        <range>90 feet</range>
+        <components>V, S</components>
+        <duration>Concentration, up to 1 minute</duration>
+        <text>Regardless of the time of day or location of your battle, you command the watchful gaze of the moon to illuminate threats to your allies. Shafts of bright moonlight, each 5 feet wide, shine down from the sky (or from the ceiling if you are indoors), illuminating all threats within range, whether they're enemies seen or unseen, or traps or hidden hazards. An enemy creature that makes a successful Charisma saving throw resists the effect and is not picked out by the moon's soft glow.
+The glow does not make invisible creatures visible, but it does mark the invisible creature's general location (somewhere within the 5-foot beam). The light moves with targets while the effect lasts, but targets that move out of the spell's range are no longer illuminated. New threats are not revealed as they enter the range or as you move; only those that were within 90 feet of you when the spell was cast are illuminated.</text>
+        <roll></roll>
     </spell>
 </compendium>
